@@ -1,0 +1,3 @@
+.blog-content p:empty::before {
+  content: "\00A0"; /* non-breaking space */
+}
